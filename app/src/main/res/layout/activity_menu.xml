@@ -44,22 +44,18 @@
             android:layout_marginTop="10dp">
 
             <ImageView
+                android:id="@+id/rate_iv"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:src="@drawable/rate" />
 
             <ImageView
+                android:id="@+id/share_iv"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_weight="1"
                 android:src="@drawable/share" />
-
-            <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_weight="1"
-                android:src="@drawable/google_plus" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
