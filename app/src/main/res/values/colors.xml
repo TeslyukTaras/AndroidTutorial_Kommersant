@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#bbbbbb</color>
+    <color name="grey_light">#dddddd</color>
+    <color name="grey_stroke">#999999</color>
+</resources>

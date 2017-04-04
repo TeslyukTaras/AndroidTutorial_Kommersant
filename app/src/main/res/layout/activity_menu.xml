@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_new_game"
+            android:id="@+id/menu_new_game_btn"
+            android:background="@drawable/button_selector"
+            android:textSize="@dimen/text_font_tall"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_setting"
+            android:id="@+id/menu_setting_btn"
+            android:background="@drawable/button_selector"
+            android:textSize="@dimen/text_font_tall"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_about"
+            android:id="@+id/menu_about_btn"
+            android:background="@drawable/button_selector"
+            android:textSize="@dimen/text_font_tall"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/rate" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/share" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/google_plus" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

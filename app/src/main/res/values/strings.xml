@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Kommersant</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_new_game">Нова гра</string>
+    <string name="menu_setting">Налаштування</string>
+    <string name="menu_about">Про гру</string>
+    <string name="about_text">Це є навчальна програма для відображення роботи з інтерфейсом користувача та Activity.</string>
+
+    <string name="setting_sound_effects">Звукові ефекти</string>
+    <string name="setting_volume">Гучність</string>
+    <string name="setting_music">Фонова музика</string>
+    <string name="setting_vibro">Вібрація</string>
+    <string name="setting_difficulty">Складність</string>
+
+    <string name="item1_name">Попрацювати</string>
+    <string name="item2_name">Купити ятку</string>
+    <string name="item3_name">Купити кіоск</string>
+    <string name="item4_name">Купити магазин</string>
+    <string name="item5_name">Купити базар</string>
+    <string name="item6_name">Купити супермаркет</string>
+    <string name="item7_name">Купити гіпермаркет</string>
+</resources>
